@@ -115,3 +115,70 @@ h1 {
     border-radius: 20px;
     margin: 10px 20px 0px 20px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 40px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    font-style: italic; 
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 60px 200px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    border-color: none;
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    flex: 1;
+    text-align: left;
+} 
+
+.sign-up-text p{
+    color: #fff;
+    opacity: 0.7;
+    margin: 10px 30px 30px 50px;
+}
+
+.sign-up-text h2{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 25px 0px 0px 50px;
+}
+
+.sign-up-button button{
+    flex: 1;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    background-color: #3882F6;
+    border-color: #fff; 
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 15px;
+}
+
+.footer{
+    color: #fff;
+    background-color: #1F2937;
+    font-family: 'Roboto', arial;
+}
